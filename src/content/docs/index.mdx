@@ -1,0 +1,31 @@
+---
+title: Plato.ai
+description: Work smarter, not harder.
+template: splash
+hero:
+  tagline: Work smarter, not harder.
+  image:
+    file: ../../assets/startwindow.png
+  actions:
+    - text: Get started
+      link: /platowebpage/setup/installation
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+
+<CardGrid stagger>
+	<Card title="Context Driven" icon="open-book">
+		Use information from your study material using RAG powered agents.
+	</Card>
+	<Card title="Conversational" icon="comment">
+		Talk to Plato and ask questions in your own words. It just understands.
+	</Card>
+	<Card title="Complete Control" icon="setting">
+		Everything runs on device. You control which files to use and which to exclude.
+	</Card>
+	<Card title="Read the docs" icon="open-book">
+		Learn more in [the Docs](usage/basic).
+	</Card>
+</CardGrid>
